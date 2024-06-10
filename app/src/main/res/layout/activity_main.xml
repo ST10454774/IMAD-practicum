@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="202dp"
+            app:srcCompat="@drawable/hd_wallpaper_colorful_clock" />
+
+        <TextView
+            android:id="@+id/etAppName"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:text="Screen Time Manager"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/etStudentNumber"
+            android:layout_width="match_parent"
+            android:layout_height="106dp"
+            android:text="ST10454774"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:text="Henry Okpara"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnNextScreen"
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:text="Start"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnExitApp"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:text="Exit App"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

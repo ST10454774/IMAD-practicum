@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".MainScreen">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="159dp"
+            android:layout_height="95dp"
+            app:srcCompat="@drawable/hd_wallpaper_colorful_clock" />
+
+        <TextView
+            android:id="@+id/etAppName2"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="Screen Time Manager"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/etDate"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="Date"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etDate1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/etMorning"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Morning"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etMorning1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/etAfternoon"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Afternoon"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etAfternoon1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/etNotes"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Notes"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etNotes1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btnGoToDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go To Detailed View"
+            android:textSize="24sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
